@@ -1,0 +1,52 @@
+# ==============================================
+# AgenteSupabaseAI - Gitignore
+# ==============================================
+
+# Secretos y configuración local
+.env
+*.env.local
+.env.*.local
+
+# Python - Bytecode y cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Archivos de debug/temporales
+debug_output.json
+*.log
+*.tmp
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Distribución y packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db

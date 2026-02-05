@@ -1,0 +1,6 @@
+openai
+supabase
+python-dotenv
+openai-agents
+psycopg2-binary
+requests
