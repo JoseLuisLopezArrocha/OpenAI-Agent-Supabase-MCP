@@ -43,8 +43,7 @@ Al iniciar `agent.py`, verás un menú de selección:
 1.  **Servidor Local (Ollama)**: Ideal para privacidad y coste cero.
     *   Requiere tener Ollama corriendo (`ollama serve`).
     *   Usa `http://localhost:11434/v1`.
-2.  **Gemini Flash / Pro**: Usa modelos de Google (gratuitos/rápidos) simulando ser OpenAI.
-    *   Requiere una API Key de Google AI Studio.
+
 
 ## 4. Estructura del Código
 

@@ -1,6 +1,6 @@
 # OpenAI Agent + Supabase + MCP 🤖⚡
 
-Un **Agente Autónomo de Base de Datos** impulsado por LLMs (Ollama/OpenAI/Gemini) capaz de administrar proyectos de Supabase, crear esquemas SQL y manipular datos mediante lenguaje natural.
+Un **Agente Autónomo de Base de Datos** impulsado por LLMs (Ollama/OpenAI) capaz de administrar proyectos de Supabase, crear esquemas SQL y manipular datos mediante lenguaje natural.
 
 Este proyecto utiliza el SDK `openai-agents` y la API de Gestión de Supabase para ofrecer una experiencia "text-to-database" completa.
 
@@ -48,7 +48,7 @@ Este proyecto utiliza el SDK `openai-agents` y la API de Gestión de Supabase pa
 ```bash
 python agent.py
 ```
-Selecciona tu proveedor de LLM (Ollama o Gemini) en el menú interactivo y empieza a chatear.
+Selecciona tu proveedor de LLM (Ollama o OpenAI) en el menú interactivo y empieza a chatear.
 
 **Ejemplos de comandos:**
 *   _"Crea un proyecto nuevo llamado 'TiendaDemo'"_
